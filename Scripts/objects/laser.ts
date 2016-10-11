@@ -4,7 +4,7 @@ module objects{
         private _speed : number = 15;
 
         constructor() {
-            super("laser");
+            super("laser", "");
         }
 
         public start() : void  {
